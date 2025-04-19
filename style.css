@@ -8,19 +8,16 @@
 
     0% {
         transform: translate(0px, 10px) scale(1.0);
-    }
-
-    20% {
         box-shadow: 0px 20px 30px 10px greenyellow; 
     }
 
     50% {
-        box-shadow: none;
         transform: scale(0.5);
     }
 
     100% {
         transform: translate(10px, 0px) scale(1.0);
+        box-shadow: none;
     }
     
 }
@@ -39,7 +36,7 @@
     border-radius: 50%;
     background-color: greenyellow;
     animation: animation;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
 }
